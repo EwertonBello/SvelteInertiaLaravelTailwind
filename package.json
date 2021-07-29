@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.3.1",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "laravel-mix-svelte": "^0.4.0",
+        "lodash": "^4.17.19",
+        "postcss": "^8.3.6",
+        "svelte": "^3.41.0",
+        "svelte-loader": "^3.1.2",
+        "tailwindcss": "^2.2.7"
+    },
+    "dependencies": {
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+        "@inertiajs/inertia": "^0.9.4",
+        "@inertiajs/inertia-svelte": "^0.7.3"
+    }
+}
